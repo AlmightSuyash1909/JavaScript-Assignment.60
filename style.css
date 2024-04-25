@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.justify-center{
+    justify-content: center;
+}
+.align-center{
+    align-items: center;
+}
+.align-stretch{
+    align-items: stretch;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.flex-80{
+    flex: 0 1 74.5%;
+}
+.flex-20{
+    flex: 0 1 20%;
+}
+.justify-end{
+    justify-content: flex-end;
+}
+.heading{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+    padding:2rem;
+    background:linear-gradient(to right, rgb(43, 43, 235),rgb(40, 218, 40));
+    border-radius:4px;
+}
+.display{
+    background-color: black;
+    color:white;
+    padding:2rem 1.5rem;
+    font-size: 3rem;
+    border-radius: 6px;
+    margin-bottom: 2rem;
+    text-align: end;
+}
+button{
+    width:8rem;
+    padding: 1rem;
+    border-radius: 6px;
+    border:0;
+    font-size: 2rem;
+    margin-bottom: 0.4rem;
+    background-color: rgb(209, 215, 245);
+}
+button:hover{
+    background-color: rgb(149, 155, 184);
+}
+.equal{
+    height: 20.2rem;
+    justify-content: flex-end;
+    background-color: rgb(82, 57, 95);
+    color:whitesmoke;
+}
+.equal:hover{
+    background-color:rgb(56, 31, 70);
+}
+.clear{
+    background-color: rgb(11, 97, 100);
+    color:whitesmoke;
+}
+.clear:hover{
+    background-color:rgb(7, 51, 53);
+}
+.first-row button{
+    background-color: rgb(138, 134, 134);
+    color:whitesmoke;
+}
+.first-row button:hover{
+    background-color:rgb(105, 80, 80);
+}
